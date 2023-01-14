@@ -1,0 +1,11 @@
+file_format: "1"
+id: hutoble
+name: HutoBLE
+type: shield
+url: https://github.com/VincentHuto/HutoBLE
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - hutoble_left
+  - hutoble_right
