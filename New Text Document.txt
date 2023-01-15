@@ -1,0 +1,3 @@
+west build -d build/left -b seeeduino_xiao_ble -- -DSHIELD=hutoble_left
+west build -d build/right -b seeeduino_xiao_ble -- -DSHIELD=hutoble_right
+
