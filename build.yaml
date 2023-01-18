@@ -17,3 +17,5 @@ include:
     shield: hutoble_left
   - board: seeeduino_xiao_ble
     shield: hutoble_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
