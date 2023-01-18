@@ -1,6 +1,6 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
-
+CONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y
 config SHIELD_hutoble_LEFT
     def_bool $(shields_list_contains,hutoble_left)
 
