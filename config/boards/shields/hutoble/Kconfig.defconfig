@@ -1,6 +1,10 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+
+CONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y
+
+
 if SHIELD_hutoble_LEFT
 
 config ZMK_KEYBOARD_NAME
