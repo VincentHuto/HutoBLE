@@ -29,9 +29,9 @@
             high_layer {
             label= "HIGH";
                 bindings = <
-                &kp TAB     &kp N1       &kp N2       &kp N3       &kp N4      &kp N5     &kp N6      &kp N7       &kp N8      &kp BSPC    &kp P0       &kp N9
+                &kp TAB     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6      &kp N7       &kp N8      &kp BSPC    &kp N0       &kp N9
                 &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-                &kp BSLH   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp BSLH    &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
                 &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
                         >;
                   };
@@ -40,7 +40,7 @@
                 bindings = <
                 &kp TAB     &kp Q       &kp UP      &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
                 &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-                &kp BSLH   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp BSLH    &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
                 &kp LALT    &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
                         >;
                   };
