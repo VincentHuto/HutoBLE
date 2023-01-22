@@ -4,9 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
-#define NAV  1
-#define SYM  2
-#define ADJ  3
+#define HIGH  1
+#define LOW  2
 
 &mt {
   quick-tap-ms = <100>;
@@ -16,56 +15,35 @@
 };
 
 / {
-    combos {
-            compatible = "zmk,combos";
-            combo_esc {
-                timeout-ms = <50>;
-                key-positions = <0 1>;
-                bindings = <&kp ESC>;
-            };
-    };
-
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp N2>
-                , <&macro_release &kp LSHFT>
-                , <&macro_tap &kp G &kp I &kp F>
-                ;
-        };
-    };
-
-        keymap {
-                compatible = "zmk,keymap";
-// ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-                base_layer {
-// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "BASE"                              ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-//             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     Q     ┃     W     ┃     F     ┃     P     ┃     G     ┃   ┃     J     ┃     L     ┃     U     ┃     Y     ┃     ;     ┃
-//             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     A     ┃     R     ┃     S     ┃     T     ┃     D     ┃   ┃     H     ┃     N     ┃     E     ┃     I     ┃     O     ┃
-// ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃           ┃
-// ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃   BSPC    ┃           ┃
-//                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
- bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷              ╷           ╷           ╷           ╷           ╷           ╷           ╷
-
-   &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp F4   &kp P       &kp O
-   &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-   &kp LCTRL   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
-   &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
-
+   keymap {
+        compatible = "zmk,keymap";
+        base_layer {
+            label= "BASE";
+                bindings = <
+                &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
+                &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
+                &kp LCTRL   &kp F14     &kp ESC     &mo LOW     &kp SPACE   &mo HIGH      &mo HIGH    &kp SPACE    &mo LOW     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
                         >;
-                };
+                  };
+            high_layer {
+            label= "HIGH";
+                bindings = <
+                &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
+                &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
+                &kp LCTRL   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
+                        >;
+                  };
+            low_layer {
+            label= "LOW";
+                bindings = <
+                &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
+                &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
+                &kp LCTRL   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
+                        >;
+                  };
         };
 };
 //  &kp LALT    &kp Q       &kp W       &kp E       &kp R       &kp T         &kp F1      &kp F2       &kp F3       &kp F4    &kp F5      &kp F6
