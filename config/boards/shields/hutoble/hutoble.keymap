@@ -34,10 +34,10 @@ label= "BASE"                              ;
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┫   ┣━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷              ╷           ╷           ╷           ╷           ╷           ╷           ╷
-   &kp TAB      &kp Q       &kp W       &kp E      &kp R       &kp T           &kp Y        &kp U       &kp I       &kp O      &kp P       &kp F
-   &kp G        &kp A       &kp S       &kp D      &kp F       &kp G           &kp H        &kp J       &kp K       &kp L      &kp SEMI    &kp L
-   &kp M        &kp Z       &kp X       &kp ESC    &kp V       &kp B           &kp N        &kp M       &kp COMMA   &kp DOT    &kp SLASH   &kp R
-   &kp S        &kp T       &kp U       &kp V      &kp W       &kp X           &kp S        &kp T       &kp U       &kp V      &kp W       &kp X
+   &kp X        &kp Q       &kp W       &kp E      &kp R       &kp T           &kp Y        &kp U       &kp I       &kp O      &kp P       &kp F
+   &kp G        &kp TAB     &kp CAPS    &kp D      &kp F       &kp G           &kp H        &kp J       &kp K       &kp L      &kp SEMI    &kp L
+   &kp M        &kp Z       &kp LCTRL   &kp ESC    &kp D       &kp B           &kp N        &kp M       &kp COMMA   &kp DOT    &kp SLASH   &kp R
+   &kp S        &kp Z       &kp S       &kp D      &kp F       &kp G           &kp S        &kp T       &kp U       &kp V      &kp W       &kp X
                         >;
                 };
         };
