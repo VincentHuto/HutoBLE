@@ -1,11 +1,11 @@
 file_format: "1"
 id: hutoblev3
-name: HutoBLE
+name: hutoblev3
 type: shield
-url: https://github.com/VincentHuto/HutoBLE
+url: https://github.com/VincentHuto/hutoblev3
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - hutoble_left
-  - hutoble_right
+  - hutoblev3_left
+  - hutoblev3_right

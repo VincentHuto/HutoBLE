@@ -5,7 +5,7 @@
 # the `include` property, e.g:
 #
 # board: [ "nice_nano_v2" ]
-# shield: [ "hutoble_left", "hutoble_right" ]
+# shield: [ "hutoblev3_left", "hutoblev3_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
@@ -14,8 +14,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: hutoble_left
+    shield: hutoblev3_left
   - board: seeeduino_xiao_ble
-    shield: hutoble_right
+    shield: hutoblev3_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
