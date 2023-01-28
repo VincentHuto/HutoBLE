@@ -20,9 +20,9 @@
             label= "BASE";
                 bindings = <
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp O       &kp P       &kp MINUS
-                &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp EQUAL   &kp F11     &kp L
-                &kp LALT    &kp CAPS    &kp X       &kp C       &kp V       &kp B         &mo HIGH    &kp BSPC     &mo LOW     &kp FSLH    &kp LBKT    &kp DOT 
-                &kp LCTRL   &kp LSHIFT  &kp Z       &mo LOW     &kp SPACE   &mo HIGH      &kp N       &kp M        &kp COMMA   &kp L       &kp SEMI    &kp RBKT 
+                &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp F17     &kp SEMI    &kp EQUAL
+                &kp LALT    &kp CAPS    &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp DOT     &kp LBKT    &kp F19 
+                &kp LCTRL   &kp LSHIFT  &kp Z       &mo LOW     &kp SPACE   &mo HIGH      &mo HIGH    &kp BSPC     &mo LOW     &kp L       &kp SEMI    &kp FSLH 
                         >;
                   };
             high_layer {
