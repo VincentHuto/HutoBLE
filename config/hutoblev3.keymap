@@ -22,36 +22,27 @@
                 bindings = <
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
                 &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
-                &kp LCTRL   &kp CAPS    &kp X       &mo C       &kp SPACE   &mo B         &mo HIGH    &kp BSPC     &mo LOW     &kp RBKT    &kp F17     &kp EQUAL 
-                &kp LALT    &kp Z       &kp Z       &kp LOW     &kp SPACE   &kp HIGH      &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
+                &kp LALT    &kp CAPS    &kp X       &kp C       &kp V       &kp B         &mo HIGH    &kp BSPC     &mo LOW     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LCTRL   &kp LSHIFT  &kp Z       &kp LOW     &kp SPACE   &kp HIGH      &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
                         >;
                   };
             high_layer {
             label= "HIGH";
                 bindings = <
                 &kp TAB     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6      &kp N7       &kp N8      &kp BSPC    &kp N0       &kp N9
-                &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-                &kp BSLH    &kp F14     &kp ESC     &kp F16     &kp ENTER   &kp F18       &kp F13     &kp BSPC     &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
-                &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp ENTER   &kp K       &kp L
+                &kp ESC     &kp A       &kp S       &kp D       &kp F       &kp G         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
+                &kp LALT    &kp CAPS    &kp X       &kp C       &kp V       &kp B         &kp F13     &kp BSPC     &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LCTRL   &kp LSHIFT  &kp Z       &kp F16     &kp ENTER   &kp F18       &kp H       &kp J        &kp K       &kp ENTER   &kp K       &kp L
                         >;
                   };
             low_layer {
             label= "LOW";
                 bindings = <
                 &kp TAB     &kp Q       &kp UP      &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
-                &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-                &kp BSLH    &kp F14     &kp ESC     &kp F16     &kp ENTER   &kp F18       &kp F13     &kp DELETE   &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
-                &kp LALT    &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
+                &kp ESC     &kp LEFT    &kp DOWN    &kp RIGHT   &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
+                &kp LALT    &kp F14     &kp ESC     &kp F16     &kp ENTER   &kp F18       &kp F13     &kp DELETE   &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
+                &kp LCTRL   &kp LSHIFT  &kp Z       &kp LOW     &kp SPACE   &kp HIGH      &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
                         >;
                   };
         };
 };
-//  &kp LALT    &kp Q       &kp W       &kp E       &kp R       &kp T         &kp F1      &kp F2       &kp F3       &kp F4    &kp F5      &kp F6
-//    &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp F7      &kp F8       &kp F9       &kp F10   &kp F11     &kp F12
-//    &kp LCTRL   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp F14      &kp F15      &kp F16   &kp F17     &kp F18 
-//    &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G         &kp F19     &kp F20      &kp F21      &kp F22   &kp F23     &kp F24
-
-//    &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp MINUS   &kp P       &kp O
-//    &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp LBKT    &kp FSLH    &kp DOT
-//    &kp LCTRL   &kp F14     &kp ESC     &kp F16     &kp SPACE   &kp F18       &kp F13     &kp SPACE    &kp F15     &kp RBKT    &kp F17     &kp EQUAL 
-//    &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp SEMI    &kp K       &kp L
