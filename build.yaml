@@ -13,9 +13,9 @@
 #
 ---
 include:
- #  - board: seeeduino_xiao_ble
- #    shield: hutoblev3_left
+  - board: seeeduino_xiao_ble
+    shield: hutoblev3_left
   - board: seeeduino_xiao_ble
     shield: hutoblev3_right
- #  - board: seeeduino_xiao_ble
- #    shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
