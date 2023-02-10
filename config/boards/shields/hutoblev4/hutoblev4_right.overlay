@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "hutoblev3.dtsi"
+#include "hutoblev4.dtsi"
 
 &default_transform {
     col-offset = <6>;
