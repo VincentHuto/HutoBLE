@@ -1,17 +1,17 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_hutoblev4_LEFT
+if SHIELD_hutoblev6_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "hutoblev4"
+    default "hutoblev6"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_hutoblev4_LEFT || SHIELD_hutoblev4_RIGHT
+if SHIELD_hutoblev6_LEFT || SHIELD_hutoblev6_RIGHT
 
 config ZMK_SPLIT
     default y
