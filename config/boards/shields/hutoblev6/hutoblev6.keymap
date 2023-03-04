@@ -18,6 +18,8 @@
                 &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp L       &kp SEMI    &kp RBKT
                 &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH    &kp SQT 
                 &kp LCTRL   &kp EQUAL   &kp LEFT    &kp RIGHT   &kp SPACE   &kp ENTER     &mo HIGH    &kp BSPC     &kp UP      &kp DOWN    &kp MINUS   &kp BSLH 
+                &kp LCTRL   &kp EQUAL   &kp LEFT    &kp RIGHT   &kp SPACE   &kp ENTER     &mo HIGH    &kp BSPC     &kp UP      &kp DOWN    &kp MINUS   &kp BSLH 
+
                         >;
                   };
 
@@ -28,6 +30,7 @@
                 &kp LGUI    &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U        &kp I       &kp O       &kp P       &kp LBKT
                 &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J        &kp K       &kp L       &kp SEMI    &kp RBKT
                 &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH    &kp SQT 
+                &kp LCTRL   &kp LALT    &kp LEFT    &kp RIGHT   &kp SPACE   &kp ENTER     &mo HIGH    &kp DEL      &kp UP      &kp DOWN    &kp MINUS   &kp LG(LS(S))
                 &kp LCTRL   &kp LALT    &kp LEFT    &kp RIGHT   &kp SPACE   &kp ENTER     &mo HIGH    &kp DEL      &kp UP      &kp DOWN    &kp MINUS   &kp LG(LS(S))
                        >;
                   };
