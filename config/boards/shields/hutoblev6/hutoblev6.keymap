@@ -41,7 +41,7 @@
                 /*Row 5*/
                 &kp LCTRL   &kp LGUI   &kp LALT     &kp LEFT    &kp RIGHT   &mo HIGH      &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH    &kp SQT 
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13      &kp F14     &kp SPACE   &kp ENTER     &mo LOW     &kp UP       &kp DOWN    &kp EQUAL    &kp MINUS  &kp BSLH 
+                &kp F11     &kp F12    &kp F13      &kp F14     &kp SPACE   &kp ENTER     &mo LOW     &kp UP       &kp DOWN    &kp EQUAL    &kp MINUS  &kp LG(LS(S))
                 /*Row 2*/
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp DEL     &kp BSPC     &kp F18     &kp F19     &kp F20     &kp F21 
                         >;
@@ -59,7 +59,7 @@
                 /*Row 5*/
                 &kp LCTRL   &kp LGUI   &kp LALT     &kp LEFT    &kp RIGHT   &mo HIGH      &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH    &kp SQT 
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13      &kp F14     &kp SPACE   &kp ENTER     &mo LOW     &kp UP       &kp DOWN    &kp EQUAL    &kp MINUS  &kp BSLH 
+                &kp F11     &kp F12    &kp F13      &kp F14     &kp SPACE   &kp ENTER     &mo LOW     &kp UP       &kp DOWN    &kp EQUAL    &kp MINUS  &kp LG(LS(S))
                 /*Row 2*/
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T         &kp DEL     &kp BSPC     &kp F18     &kp F19     &kp F20     &kp F21 
                         >;
