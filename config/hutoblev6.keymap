@@ -33,7 +33,7 @@
             label= "HIGH";
                 bindings = <
                 /*Row 1*/
-                &kp F11     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6      &kp F7       &kp F8      &kp F9      &kp F0      &kp F12
+                &kp F11     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6      &kp F7       &kp F8      &kp F9      &kp F10      &kp F12
                 /*Row 3*/
                 &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp Y       &kp U        &kp I       &kp O       &kp P       &kp LBKT
                 /*Row 4*/
@@ -51,7 +51,7 @@
             label= "LOW";
                 bindings = <
                 /*Row 1*/
-                &kp F11     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6      &kp F7       &kp F8      &kp F9      &kp F0      &kp F12
+                &kp F11     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5        &kp F6      &kp F7       &kp F8      &kp F9      &kp F10      &kp F12
                 /*Row 3*/
                 &kp LALT    &kp A       &kp S       &kp D       &kp F       &kp G         &kp Y       &kp U        &kp I       &kp O       &kp P       &kp LBKT
                 /*Row 4*/
