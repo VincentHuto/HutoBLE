@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "hutoblev1a.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio0  10 GPIO_ACTIVE_HIGH>
+        , <&gpio0  9 GPIO_ACTIVE_HIGH>
+        , <&gpio0 8 GPIO_ACTIVE_HIGH>
+        ;
+};
