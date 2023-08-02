@@ -1,5 +1,4 @@
 west build -d build/left -b seeeduino_xiao_ble -- -DSHIELD=hutoblev1a_left
-west build -d build/right -b seeeduino_xiao_ble -- -DSHIELD=hutoblev1a_right
 
    &kp A        &kp B       &kp C       &kp D      &kp E       &kp F
    &kp G        &kp H       &kp I       &kp J      &kp K       &kp L
