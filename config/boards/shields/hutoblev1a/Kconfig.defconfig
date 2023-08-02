@@ -11,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_hutoblev1a_LEFT 
+if SHIELD_hutoblev1a_LEFT || SHIELD_hutoblev1a_RIGHT
 
 config ZMK_SPLIT
     default y
