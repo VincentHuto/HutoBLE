@@ -1,0 +1,63 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#define BASE 0
+#define HIGH 1
+#define LOW 1
+
+
+/ {
+   keymap {
+        compatible = "zmk,keymap";
+        base_layer {
+            label= "BASE";
+                bindings = <
+                /*Row 1*/
+                &kp ESC     &kp N1      &kp N2      
+                /*Row 3*/
+                &kp LALT    &kp A       &kp S       
+                /*Row 4*/
+                &kp LSHIFT  &kp Z       &kp X       
+                /*Row 5*/
+                &kp LCTRL   &kp LGUI   &kp LALT    
+                /*Row 6*/
+                &kp F11     &kp F12    &kp F13      
+                        >;
+                };
+
+        high_layer {
+            label= "HIGH";
+                bindings = <
+                 /*Row 1*/
+                &kp ESC     &kp N1      &kp N2      
+                /*Row 3*/
+                &kp LALT    &kp A       &kp S       
+                /*Row 4*/
+                &kp LSHIFT  &kp Z       &kp X       
+                /*Row 5*/
+                &kp LCTRL   &kp LGUI   &kp LALT    
+                /*Row 6*/
+                &kp F11     &kp F12    &kp F13   
+                        >;
+                };
+
+        low_layer {
+            label= "LOW";
+                 bindings = <
+                 /*Row 1*/
+                &kp ESC     &kp N1      &kp N2      
+                /*Row 3*/
+                &kp LALT    &kp A       &kp S       
+                /*Row 4*/
+                &kp LSHIFT  &kp Z       &kp X       
+                /*Row 5*/
+                &kp LCTRL   &kp LGUI   &kp LALT    
+                /*Row 6*/
+                &kp F11     &kp F12    &kp F13   
+                        >;
+                };
+
+        };
+};
