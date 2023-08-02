@@ -15,47 +15,53 @@
             label= "BASE";
                 bindings = <
                 /*Row 1*/
-                &kp ESC     &kp N1      &kp N2      
+                &kp ESC     &kp N1      &kp N2      &kp N3    
                 /*Row 3*/
-                &kp LALT    &kp A       &kp S       
+                &kp LALT    &kp A       &kp S       &kp D       
                 /*Row 4*/
-                &kp LSHIFT  &kp Z       &kp X       
+                &kp LSHIFT  &kp Z       &kp X       &kp C      
                 /*Row 5*/
-                &kp LCTRL   &kp LGUI   &kp LALT    
+                &kp LCTRL   &kp LGUI   &kp LALT     &kp LEFT    
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13      
+                &kp F11     &kp F12    &kp F13      &kp F14 
+                /*Row 2*/
+                &kp TAB     &kp Q       &kp W       &kp E      
                         >;
                 };
 
         high_layer {
             label= "HIGH";
                 bindings = <
-                 /*Row 1*/
-                &kp ESC     &kp N1      &kp N2      
+                /*Row 1*/
+                &kp F11     &kp F1      &kp F2      &kp F3     
                 /*Row 3*/
-                &kp LALT    &kp A       &kp S       
+                &kp LALT    &kp A       &kp S       &kp D     
                 /*Row 4*/
-                &kp LSHIFT  &kp Z       &kp X       
+                &kp LSHIFT  &kp Z       &kp X       &kp C      
                 /*Row 5*/
-                &kp LCTRL   &kp LGUI   &kp LALT    
+                &kp LCTRL   &kp LGUI   &kp LALT     &kp LEFT   
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13   
+                &kp F11     &kp F12    &kp F13      &kp F14     
+                /*Row 2*/
+                &kp TAB     &kp Q       &kp W       &kp E      
                         >;
                 };
 
         low_layer {
             label= "LOW";
-                 bindings = <
-                 /*Row 1*/
-                &kp ESC     &kp N1      &kp N2      
+                bindings = <
+                /*Row 1*/
+                &kp F11     &kp F1      &kp F2      &kp F3     
                 /*Row 3*/
-                &kp LALT    &kp A       &kp S       
+                &kp LALT    &kp A       &kp S       &kp D       
                 /*Row 4*/
-                &kp LSHIFT  &kp Z       &kp X       
+                &kp LSHIFT  &kp Z       &kp X       &kp C      
                 /*Row 5*/
-                &kp LCTRL   &kp LGUI   &kp LALT    
+                &kp LCTRL   &kp LGUI   &kp LALT     &kp LEFT    
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13   
+                &kp F11     &kp F12    &kp F13      &kp F14     
+                /*Row 2*/
+                &kp TAB     &kp Q       &kp W       &kp E      
                         >;
                 };
 
