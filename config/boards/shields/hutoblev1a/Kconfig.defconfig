@@ -3,7 +3,7 @@
 
 if SHIELD_hutoblev1a
 
-config ZMK_KEYBOARD_NAME
-    default "hutoblev1a"
-    
+    config ZMK_KEYBOARD_NAME
+        default "hutoblev1a"
+
 endif
