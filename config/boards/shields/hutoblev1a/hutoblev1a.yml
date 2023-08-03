@@ -7,5 +7,4 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - hutoblev1a_left
-  - hutoblev1a_right
+  - hutoblev1a

@@ -1,19 +1,4 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
-
-if SHIELD_hutoblev1a_LEFT
-
 config ZMK_KEYBOARD_NAME
     default "hutoblev1a"
-    
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_hutoblev1a_LEFT || SHIELD_hutoblev1a_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-endif
