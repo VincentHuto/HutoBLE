@@ -3,3 +3,6 @@
 
 config SHIELD_hutoblev1a_LEFT
     def_bool $(shields_list_contains,hutoblev1a_left)
+
+config SHIELD_hutoblev6_RIGHT
+    def_bool $(shields_list_contains,hutoblev6_right)
