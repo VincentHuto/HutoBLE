@@ -15,5 +15,5 @@
 include:
   - board: seeeduino_xiao_ble
     shield: hutoblev1a_left
-- board: seeeduino_xiao_ble
+  - board: seeeduino_xiao_ble
     shield: hutoblev1a_right
