@@ -7,6 +7,6 @@ config SHIELD_hutoblev1a
     def_bool $(shields_list_contains,hutoblev1a)
     
     config ZMK_KEYBOARD_NAME
-        default "hutoblev6"
+        default "hutoblev1a"
     
 endif
