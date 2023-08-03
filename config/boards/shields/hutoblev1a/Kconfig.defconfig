@@ -6,14 +6,4 @@ if SHIELD_hutoblev1a
 config ZMK_KEYBOARD_NAME
     default "hutoblev1a"
     
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_hutoblev1a 
-
-config ZMK_SPLIT
-    default y
-
 endif
