@@ -11,17 +11,17 @@
             label= "BASE";
                 bindings = <
                 /*Row 1*/
-                &kp ESC     &kp N1      &kp N2      &kp N3
+                &kp KP_NLCK  &kp KP_DIVIDE  &kp KP_MULTIPLY &kp K_PLAY_PAUSE
                 /*Row 3*/
-                &kp LALT    &kp A       &kp S       &kp D
+                &kp KP_N7    &kp KP_N8      &kp KP_N9       &kp KP_MINUS
                 /*Row 4*/
-                &kp LSHIFT  &kp Z       &kp X       &kp C
+                &kp KP_N5    &kp KP_N5      &kp KP_N6       &kp KP_PLUS
                 /*Row 5*/
-                &kp LCTRL   &kp LGUI   &kp RALT     &kp LEFT
+                &kp KP_N1    &kp KP_N2      &kp KP_N3       &kp LEFT
                 /*Row 6*/
-                &kp F11     &kp F12    &kp F13      &kp F14
+                &kp F11      &kp KP_N0      &kp KP_DOT      &kp KP_ENTER
                 /*Row 2*/
-                &kp TAB     &kp Q       &kp W       &kp E
+                &kp TAB      &kp Q       &kp W       &kp E
                         >;
                 };
         };
